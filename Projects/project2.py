@@ -3,7 +3,7 @@ salty_points = 0
 sweet_points = 0
 
 answer1 = input("Which breakfest food do you perfer A plain greek yogurt, B bacon, or C sugar cereals ")
-if answer1 == "A":
+if answer1 == "A" or answer1 == "a":
     sour_points += 1
 elif answer1 == "B":
     salty_points += 1
