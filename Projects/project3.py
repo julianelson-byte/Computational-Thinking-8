@@ -1,4 +1,4 @@
-import turtle, time, 
+import turtle, time
 from utils import *
 
 # Section 1 - Variables
@@ -25,7 +25,7 @@ t4 = create_sprite("fish",x4,y4)
 # Section 3 - Racing
 # TODO - set how much each variable changes by and increase the number of repeats to at least 30
 #The dog will be the fastest because its speed is set to 17 which is the highest. basketball will be the slowest because its speed is the slowest
-for i in range(30):random
+for i in range(30):
     x1 += 17
     x2 += 15
     x3 += 10
