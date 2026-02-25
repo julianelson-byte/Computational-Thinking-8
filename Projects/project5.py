@@ -124,6 +124,12 @@ for i in range(10000000000):
 
 
     # TODO - make an if statement for ending the game
+    if points >= 3:
+        print ("you win!!!!!!!!!!")
+        window.update()
+        time.sleep(3)
+        break
+   
 
     time.sleep(0.01)
     window.update()
